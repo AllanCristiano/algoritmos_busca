@@ -1,0 +1,2 @@
+class OrdenaAEstrela:
+    pass
