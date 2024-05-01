@@ -25,3 +25,10 @@ class OrdenaVetor:
         
         self.valores[posicao] = adjacente
         self.final += 1
+        
+    def imprime(self):
+        if self.ultima_posicao == -1:
+            print('O vetor está vazio')
+        else:
+            for i in range(self.ultima_posicao + 1):
+                print(i, ' - ', self.valores[i].rotulo, ' - ', self.valores[i].distancia_objetivo)
